@@ -7,7 +7,7 @@ sys.path.append(".")
 
 app = Flask(__name__)
 app.secret_key = 'My Keys'
-RS_URL = 'https://us-4.rightscale.com/'
+
 
 
 @app.route('/login', methods=['GET','POST'])
